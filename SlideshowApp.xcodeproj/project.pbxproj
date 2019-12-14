@@ -12,6 +12,12 @@
 		A16A0FF6238923520097EE49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A16A0FF4238923520097EE49 /* Main.storyboard */; };
 		A16A0FF8238923530097EE49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A16A0FF7238923530097EE49 /* Assets.xcassets */; };
 		A16A0FFB238923530097EE49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A16A0FF9238923530097EE49 /* LaunchScreen.storyboard */; };
+		A16A1003238924FD0097EE49 /* Touch_screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16A1002238924FD0097EE49 /* Touch_screen.swift */; };
+		A16A10052389DCBC0097EE49 /* gazou-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A16A10042389DCBB0097EE49 /* gazou-1.jpg */; };
+		A16A100C2389DCC90097EE49 /* gazou-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A16A10082389DCC80097EE49 /* gazou-3.jpg */; };
+		A16A100D2389DCC90097EE49 /* gazou-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A16A10092389DCC90097EE49 /* gazou-2.jpg */; };
+		A16A10102389DD560097EE49 /* gazou-4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A16A100E2389DD550097EE49 /* gazou-4.jpg */; };
+		A16A10112389DD560097EE49 /* gazou-5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A16A100F2389DD560097EE49 /* gazou-5.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		A16A0FF7238923530097EE49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A16A0FFA238923530097EE49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A16A0FFC238923530097EE49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A16A1002238924FD0097EE49 /* Touch_screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Touch_screen.swift; sourceTree = "<group>"; };
+		A16A10042389DCBB0097EE49 /* gazou-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "gazou-1.jpg"; sourceTree = "<group>"; };
+		A16A10082389DCC80097EE49 /* gazou-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "gazou-3.jpg"; sourceTree = "<group>"; };
+		A16A10092389DCC90097EE49 /* gazou-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "gazou-2.jpg"; sourceTree = "<group>"; };
+		A16A100E2389DD550097EE49 /* gazou-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "gazou-4.jpg"; sourceTree = "<group>"; };
+		A16A100F2389DD560097EE49 /* gazou-5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "gazou-5.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,12 @@
 				A16A0FF7238923530097EE49 /* Assets.xcassets */,
 				A16A0FF9238923530097EE49 /* LaunchScreen.storyboard */,
 				A16A0FFC238923530097EE49 /* Info.plist */,
+				A16A1002238924FD0097EE49 /* Touch_screen.swift */,
+				A16A10042389DCBB0097EE49 /* gazou-1.jpg */,
+				A16A10092389DCC90097EE49 /* gazou-2.jpg */,
+				A16A10082389DCC80097EE49 /* gazou-3.jpg */,
+				A16A100E2389DD550097EE49 /* gazou-4.jpg */,
+				A16A100F2389DD560097EE49 /* gazou-5.jpg */,
 			);
 			path = SlideshowApp;
 			sourceTree = "<group>";
@@ -122,9 +140,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A16A10102389DD560097EE49 /* gazou-4.jpg in Resources */,
 				A16A0FFB238923530097EE49 /* LaunchScreen.storyboard in Resources */,
+				A16A10112389DD560097EE49 /* gazou-5.jpg in Resources */,
 				A16A0FF8238923530097EE49 /* Assets.xcassets in Resources */,
+				A16A10052389DCBC0097EE49 /* gazou-1.jpg in Resources */,
+				A16A100C2389DCC90097EE49 /* gazou-3.jpg in Resources */,
 				A16A0FF6238923520097EE49 /* Main.storyboard in Resources */,
+				A16A100D2389DCC90097EE49 /* gazou-2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A16A1003238924FD0097EE49 /* Touch_screen.swift in Sources */,
 				A16A0FF3238923520097EE49 /* ViewController.swift in Sources */,
 				A16A0FF1238923520097EE49 /* AppDelegate.swift in Sources */,
 			);
